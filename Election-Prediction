@@ -1,0 +1,51 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Phase1.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/raishagun/Election-Prediction/blob/master/Election-Prediction\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "5xvVdSvW-OJA",
+        "outputId": "dd12d0b9-b378-413c-d29b-5e0a76ec3f95",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "source": [
+        "!git clone https://github.com/raishagun/Election-Prediction.git\n"
+      ],
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "fatal: destination path 'Election-Prediction' already exists and is not an empty directory.\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
