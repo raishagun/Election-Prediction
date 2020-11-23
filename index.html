@@ -15,7 +15,6 @@
 
     .container{
         width:100%;
-       
     }
 
     .header{
@@ -69,16 +68,32 @@
         color: white;
         padding: 20px;
         margin:20vh auto;
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: bold;
     }
 
-    #sign{
-        color:black;
-        background-color: #fff;
+   .sign a{
+        color:white;
+        background-color: red;
         height: 40px;
         line-height: 40px;
-        margin:50px;
-        font-size: 15px;
+        font-size: 20px;
+        text-decoration: none;
+        padding: 30px;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+    }
+
+    .sign{
+        width: 100%;
+        height:50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 80px;
     }
     
     .image img{
@@ -87,15 +102,17 @@
     }
 
     #states{
-        padding: 3%;
-        justify-content: space-between;
-        height: 130vh;
-       width: 100%;
+        height: 70vh;
+        width: 100%;
         position: relative;
         text-align: center;
+        display: flex;
+        justify-content: space-evenly;
+        padding:3%;
+        
     }
 
-    #states #p1{
+     #p1{
         text-align: center;
         font-size: 30px;
         padding: 10px;
@@ -121,10 +138,9 @@
          width: 100%;
     }
 
-    h3{
+    .box a{
         text-decoration: underline;
-        text-align: justify;
-        text-align: center;
+         text-align: center;
         margin-top: 11px;
         color: blanchedalmond;
         font-weight: lighter;
@@ -191,7 +207,7 @@
         <div class="header">
             <ul class="menu">
                 <li><a href="#">HOME</a></li>
-                <li><a href="#">OUR GOALS</a></li>
+                <li><a href="#">PREDICTIONS</a></li>
                 <li><a href="#states">STATES</a></li>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">CONTACT</a></li>
@@ -199,57 +215,38 @@
         </div>
         <div class="content">
             <div class="para">
-                <div class="text"><p>Politics current scenario and election prediction</p>
-                    <p id="sign">Register to view more</p></div>
+                <div class="text"><p>Politics Current Scenario and Election Prediction</p>
+                    </div>
             </div>
             <div class="image">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDLIPk7oY4XtxylIptiDAacmpEvOk9HdenhQ&usqp=CAU">
             </div>
         </div>
+        <p id="p1">POPULAR STATES<p>
+
         <div id="states">
-            <p id="p1">STATES<p>
-            
-            <div class="box">
-                <img src="./img/assam.jpeg">
-                <h3>ASSAM</h3>
-                <p id="p3">LAND OF RED RIVER AND BLUE LAND</p>
-            </div>
             <div class="box">
                 <img src="./img/bihar.jpeg">
-                <h3>BIHAR</h3>
+                <a href="./states/bihar.html">BIHAR</a>
                 <p id="p3">BLISSFUL BIHAR</p>
             </div>
             <div class="box">
-                <img src="./img/chhattisgarh.jpeg">
-                <h3>CHHATTISGARH</h3>
-                <p id="p3">FULL OF SURPRISES</p>
-            </div>
-            <div class="box">
                 <img src="./img/gujarat.jpeg">
-                <h3>GUJARAT</h3>
+                <a href="./states/gujarat.html">GUJARAT</a>
                 <p id="p3">VIBRANT CITY</p>
             </div>
             <div class="box">
-                <img src="./img/hp.jpeg">
-                <h3>HIMACHAL PRADESH</h3>
-                <p id="p3">PEACE AND BEAUTY</p>
-            </div>
-            <div class="box">
                 <img src="./img/bengal.jpeg">
-                <h3>BENGAL</h3>
+                <a href="./states/bengal.html">BENGAL</a>
                 <p id="p3">CITY OF SWEETNESS</p>
             </div>
             <div class="box">
-                <img src="./img/kerala.jpeg">
-                <h3>KERALA</h3>
-                <p id="p3">CLIENT SUBTITLE</p>
-            </div>
-            <div class="box">
                 <img src="./img/maharahstra.jpeg">
-                <h3>MAHARASHTRA</h3>
+                <a href="./states/maharashtra.html">MAHARASHTRA</a>
                 <p id="p3">SUPPORT AND GENEROSITY</p>
             </div>
         </div>
+        <div class="sign"><a href="#">Click to view more</a></div>
             <div class="about">
                 <div class="a1">
                     <h1>About</h1>
@@ -260,11 +257,11 @@
                 <div class="a2">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_WAm9avYehFDbizYVkMHH8A0TnYajnA4k8g&usqp=CAU">
                 </div>
-            </div>
-    <div class="footer">
+             </div>
+             <div class="footer">
         @2020 by Politics current scenario and election prediction
 
-    </div>
+        </div>
     </div>
 </body>
 </html>
