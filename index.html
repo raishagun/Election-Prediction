@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
 </head>
 <style>
     *{
@@ -201,6 +203,223 @@
         text-align: center;
 
     }
+
+    main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 112px;
+            width: 100%;
+            background-color: whitesmoke;
+        }
+        
+        main h1 {
+            /* color: #222831; */
+            font-size: 40px;
+            color: gray;
+        }
+        /* Upper-section */
+        
+        .upper-section {
+            padding: 0 10px;
+        }
+        
+        .about {
+            float: left;
+            width: 40%;
+            padding: 20px 40px;
+        }
+        
+        .link section {
+            float: left;
+            width: 20%;
+            padding: 20px;
+        }
+        
+        .upper-section:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        
+        .about h1,
+        .link section h1 {
+            padding: 20px 0;
+            font-size: 30px;
+        }
+        
+        .about p {
+            line-height: 2;
+            font-size: 20px;
+        }
+        
+        .link p a {
+            line-height: 30px;
+            font-size: 17px;
+            padding-left: 10px;
+            text-decoration: none;
+            color: grey;
+            transition: .2s;
+        }
+        
+        .link p {
+            line-height: 30px;
+            font-size: 17px;
+            color: grey;
+        }
+        
+        .link .link_icon {
+            line-height: 30px;
+            font-size: 17px;
+            color: grey;
+            margin: 0 10px;
+        }
+        
+        .link .link_icon:hover {
+            color: #ffc93c;
+        }
+        
+        .link p a:hover {
+            color: #ffc93c;
+        }
+        
+        .contact p a {
+            padding-left: 0;
+        }
+        /* Middle-section */
+        /* SignUp */
+        
+        hr {
+            border: none;
+            width: 95%;
+            margin: auto;
+            height: 3px;
+            margin-top: 0;
+            border-bottom: 1px solid #222831;
+            box-shadow: 0 5px 5px -5px #333;
+        }
+        
+        .signup {
+            padding: 30px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 110px;
+        }
+        
+        .signup h2 {
+            display: inline-block;
+            font-size: 30px;
+        }
+        
+        .signup .btn {
+            display: inline-block;
+            margin-left: 35px;
+            padding: 15px;
+            font-size: 20px;
+            border-radius: 35px;
+            border: none;
+            background-color: #d92027;
+        }
+        
+        .signup .btn:hover {
+            background-color: #12947f;
+        }
+        /* Icons */
+        
+        .icons {
+            margin: 20px 25px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .icons ul {
+            list-style: none;
+        }
+        
+        .icons li {
+            display: inline-block;
+        }
+        
+        .icons .i .icon {
+            background: red;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 15px;
+            /* line-height: 60px; */
+            vertical-align: middle;
+            padding: 18px;
+            margin: 0 8px;
+            transition: .3s;
+        }
+        
+        .icons .i .fa-facebook-f:hover {
+            background-color: #4267B2;
+        }
+        
+        .icons .i .fa-twitter:hover {
+            background-color: #40a8c4;
+        }
+        
+        .icons .i .fa-google-plus-g:hover {
+            background-color: #dd2c00;
+        }
+        
+        .icons .i .fa-linkedin-in:hover {
+            background-color: #2867B2;
+        }
+        
+        .icons .i .fa-basketball-ball:hover {
+            background-color: #e84a5f;
+        }
+        /* Bottom Section */
+        
+        .bottom-section {
+            text-align: center;
+            /* bottom: 0; */
+            background-color:red;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .bottom-section p {
+            position: relative;
+            color: black;
+        }
+        
+        .bottom-section p::after {
+            content: '';
+            display: block;
+            width: 0%;
+            height: 1px;
+            position: absolute;
+            right: 0;
+            bottom: -10px;
+            background-color: yellow;
+            transition: all .3s;
+        }
+        
+        .bottom-section p:hover::after {
+            width: 100%;
+        }
+        
+        @media(max-width: 800px) {
+            .about {
+                float: none;
+                width: 80%;
+                margin: auto;
+                text-align: center;
+            }
+            .link section {
+                width: 33.33%;
+                padding: 10px 10px 10px 20px;
+            }
+     }
 </style>
 <body>
     <div class="container">
@@ -247,21 +466,62 @@
             </div>
         </div>
         <div class="sign"><a href="#">Click to view more</a></div>
-            <div class="about">
-                <div class="a1">
-                    <h1>About</h1>
-                    <p>We embarked on this new ,exciting journey with the desire to give back and make a difference.There are so amny people we have already helped,but as we approach our next phase,we want to reach out and offer you the chance to be part of something truly great.
-                    <br><br>To attend our fundraiser,simply buy your tickets today.If you wish to learn more about what we do or other ways to contribute,simply get in touch today.</p>
-                    <br><br><a href="#">Get in Touch</a>
-                </div>
-                <div class="a2">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_WAm9avYehFDbizYVkMHH8A0TnYajnA4k8g&usqp=CAU">
-                </div>
-             </div>
-             <div class="footer">
-        @2020 by Politics current scenario and election prediction
-
-        </div>
+            
+             <footer>
+                <section class="upper-section">
+                    <section class="about">
+                        <h1>About Us</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, nemo! Sapiente dignissimos odit necessitatibus voluptatum modi expedita corrupti quos ab velit quia totam aliquid?</p>
+                    </section>
+                    <section class="link">
+                        <section>
+                            <h1>Categories</h1>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                            <p><a href="#"></a></p>
+                        </section>
+                        <section>
+                            <h1>States</h1>
+                            <p><a href="#">Bihar</a></p>
+                            <p><a href="#">Bengal</a></p>
+                            <p><a href="#">Maharashtra</a></p>
+                            <p><a href="#">Gujarat</a></p>
+                            <p><a href="#">Kerala</a></p>
+                            <p><a href="#">Uttar Pradesh</a></p>
+                        </section>
+                        <section class="contact">
+                            <h1>Contact Us</h1>
+                            <p><i class="fas fa-home link_icon"></i>GLA University</p>
+                            <p><i class="fas fa-envelope link_icon"></i>election@gla.ac.in</p>
+                            <p><i class="fas fa-phone-square link_icon"></i>Mobile: 9451303065</p>
+                            <p><i class="fab fa-facebook-square link_icon"></i><a href="#">election.in</a></p>
+                        </section>
+                    </section>
+                </section>
+                <section class="middle-section">
+                    <hr>
+                    <section class="signup">
+                        <h2>Register for Free</h2>
+                        <input type="button" class="btn" value="SIGN UP!">
+                    </section>
+                    <hr>
+                    <section class="icons">
+                        <ul>
+                            <li class="i"><i class="icon fab fa-facebook-f"></i></li>
+                            <li class="i"><i class=" icon fab fa-twitter"></i></li>
+                            <li class="i"><i class=" icon fab fa-google-plus-g"></i></li>
+                            <li class="i"><i class="icon fab fa-linkedin-in"></i></li>
+                            <li class="i"><i class="icon fas fa-basketball-ball"></i></li>
+                        </ul>
+                    </section>
+                </section>
+                <section class="bottom-section">
+                    <p>Copyright @ 2020: All Right Reserved <span style="color: white;">Politics current scenario and election prediction</span></p>
+                </section>
+            </footer>
     </div>
 </body>
 </html>
