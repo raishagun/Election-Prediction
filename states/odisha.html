@@ -26,9 +26,10 @@
     }
 
     .div2{
-        height: 90vh;
+        height: 255vh;
         width: 20%;
         background-color: #dba090; 
+        float: left;
     }
 
     .menu li{
@@ -66,6 +67,62 @@
         
            font-size: 30px;
        }
+       .div3{
+           float: right;
+           width: 80%;
+          background-color:#f6e2ca;
+       }
+
+       .pass{
+            margin-top: 15px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-size: 18px;
+           width: 100%;
+           background-color: gray;
+           padding: 3px;
+       }
+
+       .div3 img{
+           margin-top: 30px;
+           height: 250px;
+           width: 250px;
+           display: block;
+           margin: 30px auto;
+           display: flex;
+            
+       }
+
+       #img1{
+           float: left;
+           height: 250px;
+           width: 250px;
+       }
+
+      #img2{
+          float: left;
+          height: 250px;
+           width: 250px;
+      }
+
+      #img3{
+          float: left;
+          height: 250px;
+           width: 250px;
+      }
+
+      .head2{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+            font-weight: bold;
+       }
+
+       .div4{
+           display: flex;
+           justify-content: space-evenly;
+       }
 </style>
 <body>
     <div class="div1">
@@ -85,5 +142,45 @@
         <a href=""><i class="fa fa-instagram"></i></a>
     </div>
     </div>
+    <div class="div3">
+        <h2 class="head2">MAJOR POLITICAL PARTIES OF ODISHA</h2>
+        <div class="div4">
+        <img src="../Visualizations/perdayodi.png" id="img1">
+        <img src="../Visualizations/perdayodi1.png" id="img2">
+        <img src="../Visualizations/perdayodi2.png" id="img3">
+        </div>
+        <div class="pass">The above three graphs shows the daily tweet count 
+            of different users in consecutive eight days related to
+             Congress, BIJU Janta Dal and BJP respectively in Odisha.</div>
+    </div>
+    <div class="div3">
+        <div class="div4">
+        <img src="../Visualizations/perhrodi.png" id="img1">
+        <img src="../Visualizations/perhrodi1.png" id="img2">
+        <img src="../Visualizations/perhrodi2.png" id="img3">
+        </div>
+        <div class="pass">The above three graphs shows the per hour tweet
+             count for few consecutive hours related toCongress, BIJU Janta Dal and BJP respectively in Odisha.</div>
+    </div>
+    <div class="div3">
+        <div class="div4">
+        <img src="../Visualizations/congperdayodi.png" id="img1">
+        <img src="../Visualizations/bijuperdayodi.png" id="img2">
+        <img src="../Visualizations/bjpperdayodi.png" id="img3">
+        </div>
+        <div class="pass">The above three graphs shows the per day emotions of different
+            users for eight consecutive days related to Congress, BIJU Janta Dal and BJP respectively in Odisha.</div>
+    </div>
+    <div class="div3">
+        <div class="div4">
+        <img src="../Visualizations/congodi.png" id="img1">
+        <img src="../Visualizations/bijuodi.png" id="img2">
+        <img src="../Visualizations/bjpodi.png" id="img3">
+        </div>
+        <div class="pass">The above three graphs shows the final sentiment evaluation of twitter users
+             opinion related to Congress, BIJU Janta Dal and BJP respectively in 
+             Odisha.<br><br>BJP and BIJU are in a good position but Congress is in a comparatively lower position.</div>
+    </div>
+    
 </body>
 </html>
