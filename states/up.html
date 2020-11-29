@@ -26,9 +26,10 @@
     }
 
     .div2{
-        height: 90vh;
+        height: 223vh;
         width: 20%;
         background-color: #dba090; 
+        float: left;
     }
 
     .menu li{
@@ -66,10 +67,66 @@
         
            font-size: 30px;
        }
+       .div3{
+           float: right;
+           width: 80%;
+          background-color:#f6e2ca;
+       }
+
+       .pass{
+            margin-top: 15px;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           font-size: 18px;
+           width: 100%;
+           background-color: gray;
+           padding: 3px;
+       }
+
+       .div3 img{
+           margin-top: 30px;
+           height: 200px;
+           width: 200px;
+           display: block;
+           margin: 30px auto;
+           display: flex;
+            
+       }
+
+       #img1{
+           float: left;
+           height: 200px;
+           width: 200px;
+       }
+
+      #img2{
+          float: left;
+          height: 200px;
+           width: 200px;
+      }
+
+      #img3{
+          float: left;
+          height: 200px;
+           width: 200px;
+      }
+
+      .head2{
+           display: flex;
+           align-items: center;
+           justify-content: center;
+            font-weight: bold;
+       }
+
+       .div4{
+           display: flex;
+           justify-content: space-evenly;
+       }
 </style>
 <body>
     <div class="div1">
-        <h3 class="head1">ELECTIONS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UTTAR PRADESH RESULTS</h3>
+        <h3 class="head1">ELECTIONS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UP RESULTS</h3>
     </div>
     <div class="div2">
         <ul class="menu">
@@ -85,5 +142,53 @@
         <a href=""><i class="fa fa-instagram"></i></a>
     </div>
     </div>
+    <div class="div3">
+        <h2 class="head2">MAJOR POLITICAL PARTIES OF UP</h2>
+        <div class="div4">       
+        <img src="../Visualizations/perdayup.png" id="img1">
+        <img src="../Visualizations/perdayup1.png" id="img2">
+        <img src="../Visualizations/perdayup2.png" id="img3">
+        <img src="../Visualizations/perhrup3.png" id="img3">
+
+        </div>
+        <div class="pass">The above three graphs shows the daily tweet count 
+            of different users in consecutive eight days related to
+             BSP, Congress, SP and BJP respectively in UP.</div>
+    </div>
+    <div class="div3">
+        <div class="div4">
+        <img src="../Visualizations/perhrup.png" id="img1">
+        <img src="../Visualizations/perhrup1.png" id="img2">
+        <img src="../Visualizations/perhrup2.png" id="img3">
+        <img src="../Visualizations/perhrup3.png" id="img3">
+        
+        </div>
+        <div class="pass">The above three graphs shows the per hour tweet
+             count for few consecutive hours related to BSP, Congress, SP and BJP respectively in UP.</div>
+    </div>
+    <div class="div3">
+        <div class="div4">
+            <img src="../Visualizations/bspperdayup.png" id="img3">
+
+        <img src="../Visualizations/congperdayup.png" id="img1">
+        <img src="../Visualizations/spperdayup.png" id="img2">
+        <img src="../Visualizations/bjpperdayup.png" id="img3">
+        </div>
+        <div class="pass">The above three graphs shows the per day emotions of different
+            users for eight consecutive days related to BSP, Congress, SP and BJP respectively in UP.</div>
+    </div>
+    <div class="div3">
+        <div class="div4">
+            <img src="../Visualizations/bspup.png" id="img3">
+
+        <img src="../Visualizations/congup.png" id="img1">
+        <img src="../Visualizations/spup.png" id="img2">
+        <img src="../Visualizations/bjpup.png" id="img3">
+        </div>
+        <div class="pass">The above three graphs shows the final sentiment evaluation of twitter users
+             opinion related to BSP, Congress, SP and BJP respectively in UP.
+        <br><br>BJP and BIJU are in a good position but Congress is in a comparatively lower position.</div>
+    </div>
+    
 </body>
 </html>
